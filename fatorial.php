@@ -13,7 +13,10 @@
     do 
     {
         $numero = readline("Insira um número para receber o seu fatorial: \n");
-        print "O fatorial é: " . fatorial($numero) . "\n";
+        if($numero != 0)
+        {
+            print "O fatorial é: " . fatorial($numero) . "\n";
+        }
     } while ($numero != 0);
         
 
