@@ -18,7 +18,3 @@
             print "O fatorial é: " . fatorial($numero) . "\n";
         }
     } while ($numero != 0);
-        
-
-
-    
